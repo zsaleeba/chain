@@ -1,8 +1,14 @@
 #include <stdio.h>
 
+#include "chain++.h"
+
+
 int main(void)
 {
-    printf("Hello World!\n");
+    printf("chain test program\n");
+    
+    Chain<int> ch;
+    
     return 0;
 }
 
