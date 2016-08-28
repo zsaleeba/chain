@@ -3,11 +3,12 @@ CONFIG += console
 CONFIG -= app_bundle
 CONFIG -= qt
 
-SOURCES += main.c \
-    chain.c
+SOURCES += \
+    main.cpp \
+    chain++.cpp
 
 HEADERS += \
-    chain.h
+    chain++.h
 
 DISTFILES += \
     README.md \
